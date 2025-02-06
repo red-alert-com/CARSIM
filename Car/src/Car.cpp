@@ -1,4 +1,6 @@
 #include "Car.hpp"
+#include <algorithm>
+#include <cmath>
 #include <iostream>
 
 Car::Car() : speed(0), direction(0), isRunning(false) {
